@@ -1,49 +1,35 @@
 🌩 Connect Four Game – C# Project
 
-Overview:This Connect Four game is a C# implementation of the classic two-player board game. The project was developed to demonstrate knowledge of C# programming, object-oriented design, and GUI development using Windows Forms (or Console, if applicable). The goal of the game is to provide a fun, interactive way for two players to compete by connecting four discs of the same color either horizontally, vertically, or diagonally.
+Overview:This Connect Four game is a C# implementation of the classic two-player board game. It was built to showcase object-oriented programming, logic structuring, and GUI development skills using Windows Forms. The primary objective of the game is for two players to take turns dropping discs into a grid, with the goal of being the first to connect four of their discs in a row horizontally, vertically, or diagonally.
 
-Gameplay:The game is played on a 7-column, 6-row grid. Players take turns dropping colored discs into the columns. The disc falls to the lowest available space within the column. The first player to form a line of four of their discs wins. If the board fills up without a winner, the game ends in a draw.
+Gameplay:The game uses a standard 7-column, 6-row grid. Each player drops colored discs into a column, and the disc settles at the lowest unoccupied position. The game continuously checks for win conditions after each turn. If no player connects four and the grid is filled, the game ends in a draw.
 
 Features:
 
-Two-Player Mode: Players alternate turns in a local multiplayer setting.
+Two-Player Mode: Supports local multiplayer turns
 
-Win Detection Logic: Automatically checks for four connected discs in all directions after each move.
+Win and Draw Detection: Built-in logic to check for all winning possibilities and draw conditions
 
-Graphical Interface: (If Windows Forms) The GUI allows intuitive click-based interaction for column selection and displays the game grid in real-time.
+Interactive UI: Developed with Windows Forms, enabling mouse-click-based disc dropping and real-time game grid updates
 
-Draw Handling: Recognizes and displays a message when the board is full without a winner.
-
-Restart Option: Players can reset the game to play again.
+Game Reset Option: A restart button allows players to start a new game without relaunching the application
 
 Technologies Used:
 
-Language: C#
+Programming Language: C#
 
-Framework: .NET Framework or .NET Core
+Framework: .NET Framework
 
-Development Tool: Visual Studio
+IDE: Visual Studio
 
-UI: Windows Forms (or console-based UI)
+User Interface: Windows Forms
 
-Learning Objectives:
+Learning Outcomes:
 
-Practice with C# syntax and logic structures
+Strengthened understanding of C# syntax and control structures
 
-Gain experience in event-driven programming
+Experience with designing responsive user interfaces using Windows Forms
 
-Understand state management in interactive applications
+Practice in applying game logic, condition checking, and event handling
 
-Improve debugging and testing skills in a game environment
-
-Possible Improvements:
-
-Add a single-player mode with basic AI logic
-
-Track and display player scores across multiple games
-
-Implement animations for disc drops
-
-Add a timer to limit player turns
-
-This project serves as a great introduction to game development in C# and demonstrates the practical application of programming concepts in a fun and engaging way.
+Gained familiarity with visual debugging and testing
