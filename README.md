@@ -33,3 +33,12 @@ Experience with designing responsive user interfaces using Windows Forms
 Practice in applying game logic, condition checking, and event handling
 
 Gained familiarity with visual debugging and testing
+
+
+Screenshot:
+![image](https://github.com/user-attachments/assets/c5f3ec17-13c4-454e-88d0-57b4ca340f69)
+![image](https://github.com/user-attachments/assets/118e97c4-b304-4bee-8fa3-4ce7eb48472e)
+![image](https://github.com/user-attachments/assets/cccc4af9-4374-420b-b28b-b33133d3b7e4)
+
+
+
